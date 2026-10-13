@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stock Non Stop — Outlet moda a Varese: firmato a prezzi outlet</title>
+<meta name="description" content="Stock Non Stop, outlet e boutique di moda a Varese in Piazza XX Settembre: abbigliamento donna, uomo e bambino, abiti da cerimonia, taglie forti, scarpe e borse firmate a prezzi outlet.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="img/favicon.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ClothingStore","name":"Stock Non Stop","description":"Outlet e boutique di moda multibrand a Varese: donna, uomo, bambino, cerimonia, taglie forti, calzature e accessori","telephone":"+39 335 716 5727","address":{"@type":"PostalAddress","streetAddress":"Piazza XX Settembre 3","addressLocality":"Varese","postalCode":"21100","addressCountry":"IT"},"openingHours":["Mo 15:30-19:00","Tu-Sa 10:00-12:30","Tu-Sa 15:30-19:00"],"sameAs":["https://www.instagram.com/stocknonstop_since_2010/"]}
+</script>
+<style>
+  @font-face{font-family:"Fraunces";src:url("fonts/Fraunces-var.woff2") format("woff2");font-weight:600 800;font-style:normal;font-display:swap}
+  @font-face{font-family:"Inter";src:url("fonts/Inter-var.woff2") format("woff2");font-weight:400 600;font-style:normal;font-display:swap}
+  :root{
+    --giallo:#FFE01B; --giallo-scuro:#E8C800; --nero:#141414; --grigio:#5E5B57; --crema:#FBFAF6; --carta:#F3F0E8; --verde:#25D366;
+    --font-t:"Fraunces",Georgia,serif; --font-b:"Inter",system-ui,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:var(--font-b);color:var(--nero);background:var(--crema);line-height:1.6}
+  a{color:inherit}
+  img{max-width:100%;height:auto;display:block}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+  h1,h2,h3{font-family:var(--font-t);line-height:1.08;letter-spacing:-.01em}
+  h2{font-size:clamp(1.8rem,4vw,2.6rem);margin-bottom:.6em}
+  .eyebrow{display:inline-block;background:var(--giallo);color:var(--nero);font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:.72rem;padding:.35em .7em;border-radius:6px;margin-bottom:1em}
+  section{padding:72px 0}
+  .btn{display:inline-flex;align-items:center;gap:.5em;padding:.9em 1.5em;border-radius:999px;font-weight:600;text-decoration:none;transition:transform .15s,box-shadow .15s}
+  .btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.15)}
+  .btn-nero{background:var(--nero);color:#fff}
+  .btn-giallo{background:var(--giallo);color:var(--nero)}
+  .btn-bianco{background:#fff;color:var(--nero);border:1.5px solid rgba(0,0,0,.12)}
+  .btn-wa{background:var(--verde);color:#fff}
+
+  nav{position:sticky;top:0;z-index:10;background:rgba(251,250,246,.94);backdrop-filter:blur(8px);border-bottom:1px solid rgba(0,0,0,.06)}
+  nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px;gap:16px}
+  .logo{display:flex;align-items:center;gap:10px;text-decoration:none;font-family:var(--font-t);font-weight:800;font-size:1.15rem}
+  .logo img{width:48px;height:48px;object-fit:contain}
+  nav ul{display:flex;gap:1.5em;list-style:none}
+  nav ul a{text-decoration:none;font-weight:500;font-size:.95rem;color:var(--grigio)}
+  nav ul a:hover{color:var(--nero)}
+  .nav-cta{font-size:.9rem;padding:.6em 1.1em}
+  @media(max-width:780px){nav ul{display:none}}
+  @media(max-width:400px){.nav-cta{display:none}}
+
+  /* hero */
+  .hero{padding:64px 0}
+  .hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:center}
+  .hero h1{font-size:clamp(2.4rem,6vw,4rem);font-weight:800;margin-bottom:.45em}
+  .hero h1 mark{background:linear-gradient(transparent 58%,var(--giallo) 58%);color:inherit;padding:0 .08em}
+  .hero p{font-size:1.12rem;color:var(--grigio);max-width:46ch;margin-bottom:1.8em}
+  .hero-btns{display:flex;gap:12px;flex-wrap:wrap}
+  .hero-info{margin-top:26px;display:flex;gap:26px;flex-wrap:wrap;font-size:.9rem;color:var(--grigio)}
+  .hero-info b{color:var(--nero);display:block}
+  .hero-img{position:relative}
+  .hero-img img{width:100%;border-radius:50%;aspect-ratio:1/1;object-fit:cover;box-shadow:0 30px 60px -25px rgba(0,0,0,.45);border:8px solid #fff}
+  .stelle-badge{position:absolute;left:-10px;bottom:22px;background:var(--nero);color:#fff;border-radius:999px;padding:.6em 1.1em;font-size:.85rem;font-weight:600;box-shadow:0 10px 24px rgba(0,0,0,.25)}
+  .stelle-badge span{color:var(--giallo)}
+  @media(max-width:780px){.hero .wrap{grid-template-columns:1fr}.hero-img{order:-1;max-width:300px;margin:0 auto}.hero{padding-top:32px}}
+
+  /* reparti */
+  .reparti{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .rep{background:#fff;border-radius:18px;padding:22px;border:1px solid rgba(0,0,0,.06)}
+  .rep .e{font-size:1.6rem}
+  .rep h3{font-size:1.2rem;margin:.35em 0 .25em}
+  .rep p{color:var(--grigio);font-size:.93rem}
+  @media(max-width:860px){.reparti{grid-template-columns:1fr 1fr}}
+  @media(max-width:520px){.reparti{grid-template-columns:1fr}}
+
+  /* negozio */
+  .negozio{background:var(--nero);color:#fff}
+  .negozio .wrap>p{color:rgba(255,255,255,.75);max-width:60ch;margin-bottom:28px}
+  .foto{display:grid;grid-template-columns:1.4fr 1fr;gap:16px}
+  .foto figure{border-radius:18px;overflow:hidden;background:#222}
+  .foto img{width:100%;height:100%;object-fit:cover;aspect-ratio:4/5}
+  .foto figure:first-child img{aspect-ratio:auto;height:100%}
+  .foto figcaption{font-size:.85rem;color:rgba(255,255,255,.7);padding:10px 12px}
+  @media(max-width:780px){.foto{grid-template-columns:1fr}.foto img,.foto figure:first-child img{aspect-ratio:4/3}}
+
+  /* lisa */
+  .lisa .wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:48px;align-items:center}
+  .lisa img{border-radius:22px;aspect-ratio:3/4;object-fit:cover;width:100%;box-shadow:0 24px 50px -24px rgba(0,0,0,.4)}
+  .lisa p{color:var(--grigio);font-size:1.05rem;margin-bottom:1em}
+  .punti{list-style:none;margin-top:18px}
+  .punti li{padding:9px 0;border-bottom:1px dashed rgba(0,0,0,.15)}
+  .punti li::before{content:"✓ ";font-weight:700}
+  @media(max-width:780px){.lisa .wrap{grid-template-columns:1fr}.lisa img{max-width:360px;margin:0 auto}}
+
+  /* recensioni */
+  .rec{background:var(--carta)}
+  .rec-top{display:flex;align-items:baseline;gap:16px;flex-wrap:wrap;margin-bottom:24px}
+  .rec-top h2{margin:0}
+  .rec-top span{color:var(--grigio)}
+  .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .card{background:#fff;border-radius:16px;padding:22px}
+  .card .st{color:#E0A100;letter-spacing:2px;font-size:.9rem}
+  .card p{margin:.5em 0;font-size:.98rem}
+  .card small{color:var(--grigio)}
+  @media(max-width:860px){.cards{grid-template-columns:1fr}}
+
+  /* insta */
+  .insta{text-align:center}
+  .insta .box{background:var(--giallo);border-radius:26px;padding:44px 24px}
+  .insta p{max-width:52ch;margin:0 auto 22px;font-size:1.05rem}
+
+  /* info */
+  .info .wrap{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+  .orari{list-style:none}
+  .orari li{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid rgba(0,0,0,.1)}
+  .orari li span:last-child{font-weight:600;text-align:right}
+  .riga{display:flex;gap:14px;align-items:flex-start;margin-bottom:18px}
+  .riga .ic{width:40px;height:40px;border-radius:12px;background:var(--giallo);display:grid;place-items:center;flex-shrink:0;font-size:1.1rem}
+  .riga b{display:block}
+  .riga a{color:var(--grigio);text-decoration:none}
+  @media(max-width:780px){.info .wrap{grid-template-columns:1fr}}
+
+  footer{padding:32px 0 100px;text-align:center;color:var(--grigio);font-size:.85rem;border-top:1px solid rgba(0,0,0,.06)}
+  .wa-fixed{position:fixed;right:18px;bottom:18px;z-index:20;width:58px;height:58px;border-radius:50%;background:var(--verde);display:grid;place-items:center;box-shadow:0 10px 30px rgba(37,211,102,.45);text-decoration:none}
+  .wa-fixed svg{width:30px;height:30px;fill:#fff}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a href="#" class="logo"><img src="img/logo.png" alt="Stock Non Stop Outlet">Stock Non Stop</a>
+    <ul>
+      <li><a href="#reparti">Cosa trovi</a></li>
+      <li><a href="#negozio">Il negozio</a></li>
+      <li><a href="#recensioni">Recensioni</a></li>
+      <li><a href="#info">Orari e indirizzo</a></li>
+    </ul>
+    <a href="https://wa.me/393357165727" class="btn btn-nero nav-cta">💬 WhatsApp</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Outlet moda · Varese centro</div>
+      <h1>Moda firmata a <mark>prezzi outlet</mark></h1>
+      <p>Abbigliamento donna, uomo e bambino, abiti da cerimonia, taglie forti, scarpe e borse. Capi di qualità e Made in Italy, con arrivi sempre nuovi, in Piazza XX Settembre a Varese.</p>
+      <div class="hero-btns">
+        <a href="https://wa.me/393357165727?text=Ciao%20Lisa%2C%20vorrei%20un%20informazione" class="btn btn-wa">💬 Scrivici su WhatsApp</a>
+        <a href="#info" class="btn btn-bianco">📍 Come arrivare</a>
+      </div>
+      <div class="hero-info">
+        <div><b>Mar–Sab</b>10–12:30 · 15:30–19</div>
+        <div><b>Lunedì</b>15:30–19</div>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="img/lisa-logo.jpg" alt="Lisa, titolare di Stock Non Stop" width="798" height="786">
+      <div class="stelle-badge"><span>★</span> 42 recensioni su Google</div>
+    </div>
+  </div>
+</header>
+
+<section id="reparti">
+  <div class="wrap">
+    <div class="eyebrow">Cosa trovi</div>
+    <h2>Un solo negozio, tutto il guardaroba</h2>
+    <div class="reparti">
+      <div class="rep"><div class="e">👗</div><h3>Donna</h3><p>Dal casual di tutti i giorni ai capi più eleganti, multibrand e Made in Italy.</p></div>
+      <div class="rep"><div class="e">✨</div><h3>Cerimonia e sera</h3><p>Abiti da sera e da cerimonia per ogni occasione importante.</p></div>
+      <div class="rep"><div class="e">💛</div><h3>Taglie forti</h3><p>Una linea dedicata, con vestibilità curata e capi di tendenza.</p></div>
+      <div class="rep"><div class="e">👔</div><h3>Uomo</h3><p>Camicie, giacche e capi firmati a prezzi convenienti.</p></div>
+      <div class="rep"><div class="e">🧸</div><h3>Bambino</h3><p>Abbigliamento per i più piccoli, comodo e di qualità.</p></div>
+      <div class="rep"><div class="e">👠</div><h3>Scarpe e accessori</h3><p>Calzature italiane, borse in pelle, cinture e bigiotteria.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="negozio" id="negozio">
+  <div class="wrap">
+    <div class="eyebrow">Il negozio</div>
+    <h2>Vieni a curiosare</h2>
+    <p>Una vetrina che si fa notare e un negozio pieno di capi selezionati uno per uno. Gli arrivi cambiano spesso: per vederli in anteprima seguici su Instagram.</p>
+    <div class="foto">
+      <figure><img src="img/vetrina.jpg" alt="La vetrina di Stock Non Stop in Piazza XX Settembre" loading="lazy" width="800" height="600"><figcaption>La nostra vetrina in Piazza XX Settembre</figcaption></figure>
+      <figure><img src="img/abiti.jpg" alt="Selezione di abiti da Stock Non Stop" loading="lazy" width="640" height="800"><figcaption>Gli abiti più amati</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="lisa">
+  <div class="wrap">
+    <img src="img/negozio.jpg" alt="Lisa nel negozio" loading="lazy" width="604" height="800">
+    <div>
+      <div class="eyebrow">Ci pensa Lisa</div>
+      <h2>Ti aiutiamo a trovare il look giusto</h2>
+      <p>Da Stock Non Stop non sei mai da sola davanti agli scaffali: ti consigliamo il capo giusto per l'occasione, la taglia e l'abbinamento, oppure il regalo perfetto.</p>
+      <ul class="punti">
+        <li>Capi firmati e di alta manifattura a prezzi outlet</li>
+        <li>Arrivi sempre nuovi, pezzi spesso unici</li>
+        <li>Consigli personali per ogni occasione</li>
+        <li>Idee regalo per lei e per lui</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="rec" id="recensioni">
+  <div class="wrap">
+    <div class="rec-top"><h2>Dicono di noi</h2><span>42 recensioni su Google</span></div>
+    <div class="cards">
+      <div class="card"><div class="st">★★★★★</div><p>"Merce sempre nuova e a prezzi davvero d'affare! Brava Lisa a trovare sempre delle vere chicche da proporre!"</p><small>Nadja G. · Google</small></div>
+      <div class="card"><div class="st">★★★★★</div><p>"Selezione nella scelta dei capi, prezzi super scontati e grande cortesia fanno di questo negozio uno dei miei preferiti di Varese."</p><small>Maria Stefania S. · Google</small></div>
+      <div class="card"><div class="st">★★★★★</div><p>"Lisa è una super professionista, ti dà ottimi consigli, da lei trovi sempre qualcosa di diverso… difficile uscire dal negozio a mani vuote!"</p><small>Carola B. · Google</small></div>
+    </div>
+  </div>
+</section>
+
+<section class="insta">
+  <div class="wrap">
+    <div class="box">
+      <h2>Gli arrivi della settimana</h2>
+      <p>Ogni settimana nuovi capi in negozio. Li pubblichiamo su Instagram: seguici per vederli prima di tutti.</p>
+      <a href="https://www.instagram.com/stocknonstop_since_2010/" class="btn btn-nero">📷 @stocknonstop_since_2010</a>
+    </div>
+  </div>
+</section>
+
+<section class="info" id="info">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Orari</div>
+      <h2>Quando trovarci</h2>
+      <ul class="orari">
+        <li><span>Lunedì</span><span>15:30–19:00</span></li>
+        <li><span>Martedì</span><span>10:00–12:30 · 15:30–19:00</span></li>
+        <li><span>Mercoledì</span><span>10:00–12:30 · 15:30–19:00</span></li>
+        <li><span>Giovedì</span><span>10:00–12:30 · 15:30–19:00</span></li>
+        <li><span>Venerdì</span><span>10:00–12:30 · 15:30–19:00</span></li>
+        <li><span>Sabato</span><span>10:00–12:30 · 15:30–19:00</span></li>
+        <li><span>Domenica</span><span>Chiuso</span></li>
+      </ul>
+    </div>
+    <div>
+      <div class="eyebrow">Dove siamo</div>
+      <h2>Nel centro di Varese</h2>
+      <div class="riga"><div class="ic">📍</div><div><b>Indirizzo</b><a href="https://maps.google.com/?q=Piazza+XX+Settembre+3+Varese">Piazza XX Settembre 3, 21100 Varese</a></div></div>
+      <div class="riga"><div class="ic">💬</div><div><b>WhatsApp e telefono</b><a href="https://wa.me/393357165727">335 716 5727</a></div></div>
+      <div class="riga"><div class="ic">📷</div><div><b>Instagram</b><a href="https://www.instagram.com/stocknonstop_since_2010/">@stocknonstop_since_2010</a></div></div>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:10px">
+        <a href="https://maps.google.com/?q=Piazza+XX+Settembre+3+Varese" class="btn btn-giallo">Apri in Google Maps</a>
+        <a href="tel:+393357165727" class="btn btn-bianco">📞 Chiama</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">© 2026 Stock Non Stop · Piazza XX Settembre 3, 21100 Varese</div>
+</footer>
+
+<a href="https://wa.me/393357165727" class="wa-fixed" aria-label="Scrivici su WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 1.8a8.2 8.2 0 1 1-4.2 15.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 0 1 12 3.8zm-3 4.4c-.2 0-.5 0-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.2 5 4.4 2.5 1 3 .8 3.5.7.5 0 1.7-.7 2-1.4.2-.7.2-1.3.1-1.4l-.5-.3-1.9-.9c-.3-.1-.5-.2-.7.2l-.9 1.1c-.2.2-.3.2-.6.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.4 0-.5l-.9-2c-.2-.5-.4-.4-.6-.4H9z"/></svg>
+</a>
+
+</body>
+</html>
